@@ -5,7 +5,7 @@ import Link from 'next/link'
 const PostCard = ({ post }) => {
     // console.log(post)
     return (
-        <div className='border-2 border-zinc-200 bg-slate-100 shadow-xl rounded-xl p-0 lg:p-5 pb-12 mb-8'>
+        <div className='border-2 border-zinc-200 bg-gray-200 shadow-xl rounded-xl p-0 lg:p-5 pb-12 mb-8'>
             <div className='relative overflow-hidden pb-80 mb-6'>
                 <img
                    src={post.featuredImage.url}
@@ -28,13 +28,18 @@ const PostCard = ({ post }) => {
                     <p className='inline align-middle text-gray-700 ml-3 text-lg'>{post.author.name}</p>
                 </div>
                 <div className='font-medium text-gray-600'>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline mr-2 text-sky-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline mr-2 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
                     <span className="align-middle">{moment(post.createdAt).format('DD - MM - YYYY')}</span>
                 </div>
             </div>
-            <p>{post.excerpt}</p>
+            <p className='text-center text-gray-700 text-lg px-4 lg:px-20 mb-8'>{post.excerpt}</p>
+            <div className='text-center'>
+                <Link href={`/post/${post.slug}`}>
+                    <span className='transition duration-600 bg-zinc-300 font-medium text-gray-700 p-2 rounded-lg cursor-pointer'>Continuar lendo</span>
+                </Link>
+            </div>
         </div>
     )
 }
