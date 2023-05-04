@@ -1,6 +1,7 @@
 import React from "react"
 import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm } from '@/components'
 import { getPosts, getPostDetails } from "@/services"
+import AboutPage from "@/components/About"
 
 const PostDetails = ({ post }) => {
   return (

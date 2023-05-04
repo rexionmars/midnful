@@ -11,8 +11,16 @@ export default function Home({ posts }) {
 
       {/* Custom header */}
       <div className='main-container container mx-auto mb-10 h-[32em] min-h-full rounded-xl'>
-        <div>
-          <h1>Foo bar Content Center</h1>
+        <div className='flex justify-center py-6'>
+          <img
+            className=''
+            src='/brain.png'
+            height='250px'
+            width='250px'
+          />
+        </div>
+        <div className='text-6xl font-varela font-bold text-center text-sky-300'>
+          <h1>MINDFUL EXPLORER</h1>
         </div>
       </div>
 

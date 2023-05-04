@@ -29,8 +29,79 @@ body {
   }
 }
 
+.team-section {
+  width: 100%;
+}
+
+.team-section .sec-container {
+  width: 80%;
+  margin: auto;
+}
+
+.team-section .sec-container .row-sec {
+  width: 60%;
+  margin: auto;
+}
+
+.team-section .sec-container .team-card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.team-section .sec-container .team-card .card {
+  width: 100%;
+  border-radius: 10px;
+  background: rgba(225, 225, 225, 0.9);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20xp;
+}
+
+.team-section .sec-container .team-card .card .image-section {
+  height: 200px;
+  width: 200px;
+}
+
+.team-section .sec-container .team-card .card .content {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+.team-section .sec-container .team-card .card .content h3 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.team-section .sec-container .team-card .card .content p {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .team-section .sec-container .team-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team-section .sec-container .team-card {
+    grid-template-columns: 1fr;
+  }
+}
+
 .main-container {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.docker-title {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .text-shadow{
