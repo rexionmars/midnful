@@ -42,8 +42,8 @@ const PostDetail = ({ post }) => {
     };
 
     return (
-        <div className='bg-gray-100 shadow-lg rounded-lg lg:p-0 pb-12 mb-8' >
-            <div className="relative overflow-hidden shadow-xl mb-6 rounded-xl">
+        <div className='bg-gray-100 rounded-lg lg:p-0 pb-12 mb-8' >
+            <div className="relative overflow-hidden mb-6 rounded-xl">
                 <img
                     src={post.featuredImage.url}
                     alt={post.title}
