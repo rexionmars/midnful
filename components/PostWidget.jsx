@@ -2,7 +2,7 @@ import React, { useEffect, useState} from 'react'
 import moment from 'moment'
 import Link from 'next/link'
 
-import { getRecentPosts, getSimilarPost } from '@/services'
+import { getRecentPosts, getSimilarPosts } from '@/services'
 
 const PostWidget = ({ categories, slug }) => {
     const [relatedPosts, setRelatedPosts] = useState([]);
@@ -37,7 +37,7 @@ const PostWidget = ({ categories, slug }) => {
                         <p className='text-gray-600 font-xs'>
                             {moment(post.createdAt).format('DD MMM, YYYY')}
                         </p>
-                        <Link href={`/post/${post.slug}`} key={post.title} className='text-md'>
+                        <Link href={`/post/${post.slug}`} key={post.title} className='text-md text-gray-700'>
                             {post.title}
                         </Link>
                     </div>

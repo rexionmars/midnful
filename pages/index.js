@@ -2,13 +2,6 @@ import Head from 'next/head'
 import { PostCard, PostWidget, Categories } from '@/components'
 import { getPosts } from '@/services'
 
-const posts = [
-  { title: 'React Testing', excerpt: 'Learning React Testing'},
-  { title: 'React Testing', excerpt: 'Learning React Testing'},
-  { title: 'React Testing', excerpt: 'Learning React Testing'},
-  { title: 'React Testing', excerpt: 'Learning React Testing'},
-]
-
 export default function Home({ posts }) {
   return (
     <div className='container mx-auto px-10 mb-10'>
