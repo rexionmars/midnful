@@ -1,0 +1,10 @@
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    /* background-image: -webkit-radial-gradient(#ddd 1px,transparent 0),-webkit-radial-gradient(#ddd 1px,transparent 0); */
+    background-image: radial-gradient(#ddd 1px,transparent 0),radial-gradient(#ddd 1px,transparent 0);
+    background-position: 0 0,25px 25px;
+    background-attachment: fixed;
+    background-size: 50px 50px;
+    overflow-x: hidden;
