@@ -1,18 +1,15 @@
-import React, { useContentex } from 'react'
-
+import React, { useContentex, useEffect, useState } from 'react'
 import Link from 'next/link'
-
-const categories = [
-    { name: 'Alimentação', slug: 'alimentacao'},
-    { name: 'Depressão', slug: 'depressao'},
-    { name: 'Cyberbullying', slug: 'cyberbullying'},
-    { name: 'Redes Sociais', slug: 'rede_social'},
-    { name: 'Saúde Mental', slug: 'saude_mental'},
-    { name: 'Cultura', slug: 'cultura'},
-    { name: 'Psicologia 4.0', slug: 'psicologia'},
-]
+import { getCategories } from '@/services'
 
 const Header = () => {
+    const [categories, setCategories] = useState([])
+
+    useEffect(() => {
+        getCategories()
+            .then((newCategories) => setCategories(newCategories))
+    }, [])
+
     return (
         <div className='container mx-auto px-10 mb-8 mt-6'>
             <div className='border-b w-full inline-block border-gray-400 py-2'>

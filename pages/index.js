@@ -17,7 +17,7 @@ export default function Home({ posts }) {
       </Head>
 
       {/* Custom header */}
-      <div className='main-container container mx-auto mb-10 h-96 min-h-full rounded-xl'>
+      <div className='main-container container mx-auto mb-10 h-[32em] min-h-full rounded-xl'>
         <div>
           <h1>Foo bar Content Center</h1>
         </div>
