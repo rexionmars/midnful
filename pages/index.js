@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { PostCard, PostWidget, Categories } from '@/components'
 import { getPosts } from '@/services'
+import { FeaturedPosts} from '@/sections'
 
 export default function Home({ posts }) {
   return (
@@ -9,17 +10,19 @@ export default function Home({ posts }) {
         <title>MINDFUL EXPLORER</title>
       </Head>
 
+      <FeaturedPosts />
+
       {/* Custom header */}
       <div className='main-container container mx-auto mb-10 h-[32em] min-h-full rounded-xl'>
         <div className='flex justify-center py-6'>
           <img
             className=''
             src='/brain.png'
-            height='250px'
-            width='250px'
+            height='300px'
+            width='300px'
           />
         </div>
-        <div className='text-6xl font-varela font-bold text-center text-sky-300'>
+        <div className='text-8xl font-varela font-bold text-center text-sky-500'>
           <h1>MINDFUL EXPLORER</h1>
         </div>
       </div>
@@ -31,7 +34,7 @@ export default function Home({ posts }) {
         <div className='lg:col-span-4 col-spna-1'>
           <div className='lg:sticky relative top-8'>
             <PostWidget />
-            <Categories />
+            {/* <Categories /> */}
           </div>
         </div>
       </div>

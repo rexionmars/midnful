@@ -1,7 +1,6 @@
 import React from "react"
 import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm } from '@/components'
 import { getPosts, getPostDetails } from "@/services"
-import AboutPage from "@/components/About"
 
 const PostDetails = ({ post }) => {
   return (
@@ -10,8 +9,8 @@ const PostDetails = ({ post }) => {
         <div className='col-span-1 lg:col-span-8'>
           <PostDetail post={post} />
           <Author author={post.author} />
-          <CommentsForm slug={post.slug} />
-          <Comments slug={post.slug} />
+          {/* <CommentsForm slug={post.slug} /> */}
+          {/* <Comments slug={post.slug} /> */}
         </div>
         <div className='col-span-1 lg:col-span-4'>
           <div className='relative lg:sticky top-8'>
