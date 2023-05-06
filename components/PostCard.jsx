@@ -27,8 +27,8 @@ const PostCard = ({ post }) => {
                     />
                     <p className='inline align-middle font-medium text-sky-200 ml-3 text-lg'>{post.author.name}</p>
                 </div>
-                <div className='font-light text-pink-600 bg-pink-300 px-2 rounded-lg'>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline mr-2 text-orange-600 text-[10px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className='font-light text-pink-500 bg-pink-300 px-2 rounded-lg'>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline mr-2 text-pink-500 text-[10px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
                     <span className="align-middle text-sm">{moment(post.createdAt).format('DD - MM - YYYY')}</span>

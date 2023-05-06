@@ -11,15 +11,15 @@ const AboutPage = () => {
                     <div className="flex justify-center p-8">
                         <p className="text-2xl text-gray-500 text-center" >
                             Nossa equipe busca auxiliar pessoas com problemas ou duvidas sobre saúde mental tendo como
-                            publico alvo toda e qualquer pessoa que sinta curiosidade ou necessite de informais de
+                            publico alvo toda e qualquer pessoa que sinta curiosidade ou necessite de informações de
                             profissionais confiáveis e competentes sobre o tema.
-                            tendo isso em vista criamos um blog onde contaremos com a ajuda de profissionais na area da
+                            Tendo isso em vista criamos um blog onde contaremos com a ajuda de profissionais na area da
                             psiquiatria para exibir suas ideias, noticias e fatos que podem não ser de conhecimento comum
                             da população sobre as mazelas causadas pelas doenças mentais.<br/><br/>
-                            com esse projeto os profissionais da área que estão começando ou ate mesmo aqueles que já tem
+                            Com esse projeto os profissionais da área que estão começando ou ate mesmo aqueles que já tem
                             uma carreira estabelecida podem participar de um projeto de cunho SOCIAL.
-                            notasse, que os mitos em torno deste tema abordado podem ser desmitificados com o auxilio dos
-                            profissionais envolvidos
+                            Notasse, que os mitos em torno deste tema abordado podem ser desmitificados com o auxilio dos
+                            profissionais envolvidos.
                         </p>
                     </div>
                 </div>
@@ -31,12 +31,13 @@ const AboutPage = () => {
                     <div className="image-section">
                         <img
                           className="align-middle rounded-full"
-                          src='https://avatars.githubusercontent.com/u/131300370?v=4'
+                        //   src='https://avatars.githubusercontent.com/u/131300370?v=4'
+                          src='./p2.png'
                         />
                     </div>
                     <div className="content">
                         <h3>Leonardi</h3>
-                        <label className="bg-purple-400 text-purple-700 p-1 px-2 border rounded-xl border-none">MVP Developer and Maintainer</label>
+                        <label className="bg-purple-400 text-purple-700 p-1 px-2 border rounded-xl border-none"><span className="text-red-700 bg-zinc-800 px-1 rounded-lg text-center font-medium">MVP</span> Developer and Maintainer</label>
                         <p className="font-sacramento text-2xl">One of the creators and maintainers of the MINDFUL EXPLORER project</p>
                     </div>
                 </div>
