@@ -16,13 +16,13 @@ const Header = () => {
                 <div className='w-full inline-block py-2'>
                     <div className='md:float-left block mt-2'>
                         <Link href='/'>
-                            <span className='cursor-pointer px-5 font-normal p-1 rounded-xl bg-cyan-400 text-xl text-sky-700'>HOME</span>
+                            <span className='cursor-pointer px-5 font-normal p-1 rounded-xl bg-sky-300 text-base text-zinc-700'>HOME</span>
                         </Link>
                         <Link href='/about'>
-                            <span className='cursor-pointer m-4 font-normal p-1 rounded-xl bg-cyan-400 text-xl text-sky-700'>Sobre o Projeto</span>
+                            <span className='cursor-pointer px-5 m-4 font-normal p-1 rounded-xl bg-sky-300 text-base text-zinc-700'>Projeto</span>
                         </Link>
                         <Link href='/contact'>
-                            <span className='cursor-pointer px-5 font-normal p-1 rounded-xl bg-cyan-400 text-xl text-sky-700'>Contatos</span>
+                            <span className='cursor-pointer px-5 font-normal p-1 rounded-xl bg-sky-300 text-base text-zinc-700'>Contatos</span>
                         </Link>
                     </div>
                     <div className='hidden md:float-left md:contents'>

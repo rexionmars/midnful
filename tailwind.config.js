@@ -16,7 +16,20 @@ module.exports = {
     fontFamily: {
       'roboto': ['Roboto', 'system-ui'],
       'varela': ['"Varela Round"', 'system-ui'],
-    }
+      'sacramento': ['"Marck Script"', 'system-ui'],
+    },
+    // colors: {
+    //   'post': {
+    //     400: '#252525',
+    //     500: '#232323'
+    //   },
+    //   'violet': {
+    //     50: '#f5f3ff',
+    //     100: '#ede9fe',
+    //     200: '#ddd6fe',
+    //     300: '#c4b5fd'
+    //   }
+    // },
   },
   plugins: [],
 }

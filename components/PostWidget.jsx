@@ -20,8 +20,8 @@ const PostWidget = ({ categories, slug }) => {
     console.log(relatedPosts)
 
     return (
-        <div className='bg-gray-100 shadow-lg rounded-lg p-8 mb-8'>
-            <h3 className='text-xl mb-8 font-medium text-gray-700 border-b'>{slug ? 'Últimas postagens' : 'Postagens recentes'}</h3>
+        <div className='post-shadow shadow-lg rounded-lg p-8 mb-8'>
+            <h3 className='text-xl mb-8 font-medium text-gray-300 border-b border-sky-900'>{slug ? 'Últimas postagens' : 'Postagens recentes'}</h3>
             {relatedPosts.map((post) => (
                 <div key={post.title} className='flex items-center w-full mb-4'>
                     <div className='w-100 flex-none'>
@@ -34,10 +34,10 @@ const PostWidget = ({ categories, slug }) => {
                         />
                     </div>
                     <div className='flex-grow ml-4'>
-                        <p className='text-gray-600 font-xs'>
+                        <p className='text-gray-300 font-xs'>
                             {moment(post.createdAt).format('DD MMM, YYYY')}
                         </p>
-                        <Link href={`/post/${post.slug}`} key={post.title} className='text-md text-gray-700'>
+                        <Link href={`/post/${post.slug}`} key={post.title} className='text-md text-gray-500'>
                             {post.title}
                         </Link>
                     </div>

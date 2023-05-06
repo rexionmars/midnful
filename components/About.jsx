@@ -36,8 +36,8 @@ const AboutPage = () => {
                     </div>
                     <div className="content">
                         <h3>Leonardi</h3>
-                        <label className="bg-purple-400 text-purple-700 p-1 px-2 border rounded-xl border-none">MVP Developer and Core State Maintainer</label>
-                        <p>One of the creators and maintainers of the MINDFUL EXPLORER project</p>
+                        <label className="bg-purple-400 text-purple-700 p-1 px-2 border rounded-xl border-none">MVP Developer and Maintainer</label>
+                        <p className="font-sacramento text-2xl">One of the creators and maintainers of the MINDFUL EXPLORER project</p>
                     </div>
                 </div>
 
