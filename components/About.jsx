@@ -7,7 +7,7 @@ const AboutPage = () => {
             <div className="sec-container">
                 <div className="docker-title p-6 container mx-auto mb-10 h-auto min-h-full rounded-xl">
             <div className="row-sec">
-                    <h1 className="font-semibold font-varela text-center text-6xl text-sky-400">O que é o projeto MINDFUL EXPLORER</h1>
+                    <h1 className="font-semibold font-varela text-center lg:text-6xl text-4xl text-sky-400">O que é o projeto MINDFUL EXPLORER</h1>
                     <div className="flex justify-center p-8">
                         <p className="text-2xl text-gray-500 text-center" >
                             Nossa equipe busca auxiliar pessoas com problemas ou duvidas sobre saúde mental tendo como
@@ -24,7 +24,7 @@ const AboutPage = () => {
                     </div>
                 </div>
             </div>
-                <h1 className="font-semibold font-varela text-center text-6xl text-sky-400">Idealizadores do projeto</h1>
+                <h1 className="font-semibold font-varela text-center lg:text-6xl text-4xl text-sky-400">Idealizadores do projeto</h1>
             <div className="team-card">
                 {/* Pessoa 1 */}
                 <div className="card">

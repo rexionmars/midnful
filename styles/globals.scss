@@ -31,17 +31,20 @@ body {
 }
 
 .team-section .sec-container {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
 .team-section .sec-container .row-sec {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
 .team-section .sec-container .team-card {
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  padding: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -57,10 +60,11 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 20xp;
+  padding: 30xp;
 }
 
 .team-section .sec-container .team-card .card .image-section {
+  padding-top: 20px;
   height: 200px;
   width: 200px;
 }
