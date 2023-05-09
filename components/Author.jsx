@@ -5,7 +5,7 @@ import { grpahCMSImageLoader } from '../util';
 
 const Author = ({ author }) => (
   <div className="text-center mt-20 mb-8 p-12 sticky rounded-lg bg-black bg-opacity-20">
-    <div className="absolute left-[45%] right-0 -top-14">
+    <div className="absolute lg:left-[45%] left-[41%] right-0 -top-14">
       <Image
         unoptimized
         loader={grpahCMSImageLoader}

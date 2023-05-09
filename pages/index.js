@@ -25,7 +25,7 @@ export default function Home({ posts }) {
             width='300px'
           />
         </div>
-        <div className='text-8xl font-varela font-bold text-center text-sky-500'>
+        <div className='lg:text-8xl text-4xl font-varela font-bold text-center text-sky-500'>
           <h1>MINDFUL EXPLORER</h1>
         </div>
       </div>
