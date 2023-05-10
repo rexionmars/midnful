@@ -67,8 +67,8 @@ const AboutPage = () => {
                     </div>
                     <div className="content">
                         <h3>Beatriz Barreto</h3>
-                        <label className="bg-pink-400 text-pink-700 p-1 px-2 border rounded-xl border-none">Coordenadorar</label>
-                        <p>Sou a coordenadorado projeto, tenho 18 anos e faço Engenharia de software no icev. Meu objetivo com o projeto é espalhar informações sobre saúde mental para todos, independente de classe social, cor e gênero.</p>
+                        <label className="bg-pink-400 text-pink-700 p-1 px-2 border rounded-xl border-none">Coordenadora</label>
+                        <p>Sou a coordenadorado projeto</p>
                     </div>
                 </div>
 
