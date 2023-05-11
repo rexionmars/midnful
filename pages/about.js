@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";about
 import AboutPage from "@/components/About";
 import { getPostDetails } from "@/services";
 
