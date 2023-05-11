@@ -31,8 +31,8 @@ const AboutPage = () => {
                     <div className="image-section">
                         <img
                           className="align-middle rounded-full"
-                        //   src='https://avatars.githubusercontent.com/u/131300370?v=4'
-                          src='./p2.png'
+                          src='https://avatars.githubusercontent.com/u/131300370?v=4'
+                          //src='./p2.png'
                         />
                     </div>
                     <div className="content">
