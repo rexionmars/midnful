@@ -27,11 +27,11 @@ const PostDetail = ({ post }) => {
 
   switch (type) {
       case 'heading-three':
-        return <h3 key={index} className="text-xl font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h3>;
+        return <h3 key={index} className="text-xl font-medium mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h3>;
       case 'paragraph':
         return <p key={index} className="mb-8 text-gray-200">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>;
       case 'heading-four':
-        return <h4 key={index} className="text-2xl text-gray-200 font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
+        return <h4 key={index} className="text-2xl text-gray-200 font-medium mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
       case 'image':
         return (
           <img
@@ -76,7 +76,7 @@ const PostDetail = ({ post }) => {
                       {/* <button onClick={handleClick}>Likes ({likes})</button> */}
                   </div>
               </div>
-              <h1 className='mb-8 text-3xl font-medium text-zinc-300'>{post.title}</h1>
+              <h1 className='mb-8 text-3xl font-medium text-zinc-200'>{post.title}</h1>
               {/* {console.log(post.content.raw.children)} */}
               {post.content.raw.children.map((typeObj, index) => {
                   const children = typeObj.children.map((item, itemIndex) => getContentFragment(itemIndex, item.text, item))
