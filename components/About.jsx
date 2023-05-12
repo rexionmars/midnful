@@ -53,7 +53,7 @@ const AboutPage = () => {
                     <div className="content">
                         <h3>Antônio Neves</h3>
                         <label className="bg-green-300 text-green-500 p-1 px-2 border rounded-xl border-none">User Interface</label>
-                        <p>tenho 19 anos e sou responsável pela gestão das redes sociais do projeto Mindfull Explorer. Estou no 1 período do curso de Engenharia de Software no ICEV. Minha finalidade é expor o projeto para o público alvo por meio dos canais de comunicação, com o objetivo de divulgar o nosso Blog.</p>
+                        <p>Sou responsável pelo Social Media e Interface do usuário no projeto Mindful Explorer. Estou no 1 período do curso de Engenharia de Software no iCev e minha finalidade é expor o projeto para o público alvo por meio das redes sociais, com o objetivo de divulgar o nosso Site.</p>
                     </div>
                 </div>
 
