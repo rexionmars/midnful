@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutPage = () => {
     return (
-        <div className="team-section">
+        <div className="team-section trs">
             <div className="sec-container">
                 <div className="docker-title p-6 container mx-auto mb-10 h-auto min-h-full rounded-xl">
             <div className="row-sec">
@@ -31,13 +31,13 @@ const AboutPage = () => {
                     <div className="image-section">
                         <img
                           className="align-middle rounded-full"
-                          src='https://avatars.githubusercontent.com/u/131300370?v=4'
-                          //src='./p2.png'
+                        //   src='https://avatars.githubusercontent.com/u/131300370?v=4'
+                          src='./p2.png'
                         />
                     </div>
                     <div className="content">
                         <h3>Leonardi</h3>
-                        <label className="bg-purple-400 text-purple-700 p-1 px-2 border rounded-xl border-none"><span className="text-red-700 bg-zinc-800 px-1 rounded-lg text-center font-medium">MVP</span> Developer and Maintainer</label>
+                        <label className="bg-purple-400 text-purple-700 p-1 px-2 border rounded-xl border-none"><span className="text-yellow-500 bg-zinc-800 px-1 rounded-lg text-center font-medium">MVP</span> Developer and Maintainer</label>
                         <p className="font-sacramento text-2xl">One of the creators and maintainers of the MINDFUL EXPLORER project</p>
                     </div>
                 </div>

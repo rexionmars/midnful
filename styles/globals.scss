@@ -26,6 +26,22 @@ body {
   }
 }
 
+.trs {
+  animation: transitionOn 1.5s;
+}
+
+@keyframes transitionOn {
+  from {
+    opacity: 0;
+    transform: rotateX(-20deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
 .team-section {
   width: 100%;
 }
