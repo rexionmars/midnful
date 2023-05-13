@@ -32,13 +32,13 @@ const AboutPage = () => {
                         <img
                           className="align-middle rounded-full"
                         //   src='https://avatars.githubusercontent.com/u/131300370?v=4'
-                          src='./p2.png'
+                          src='./my.webp'
                         />
                     </div>
                     <div className="content">
                         <h3>Leonardi</h3>
                         <label className="bg-purple-400 text-purple-700 p-1 px-2 border rounded-xl border-none"><span className="text-yellow-500 bg-zinc-800 px-1 rounded-lg text-center font-medium">MVP</span> Developer and Maintainer</label>
-                        <p className="font-sacramento text-2xl">One of the creators and maintainers of the MINDFUL EXPLORER project</p>
+                        <p className="font-sacramento text-2xl"></p>
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@ const AboutPage = () => {
                     <div className="content">
                         <h3>Beatriz Barreto</h3>
                         <label className="bg-pink-400 text-pink-700 p-1 px-2 border rounded-xl border-none">Coordenadora</label>
-                        <p>Sou a coordenadorado projeto</p>
+                        <p>Sou a coordenadora do projeto, tenho 18 anos e faço Engenharia de software no icev. Meu objetivo com o projeto é espalhar informações sobre saúde mental para todos, independente de classe social, cor e gênero.</p>
                     </div>
                 </div>
 
