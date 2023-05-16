@@ -29,9 +29,9 @@ const PostDetail = ({ post }) => {
       case 'heading-three':
         return <h3 key={index} className="text-xl font-medium mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h3>;
       case 'paragraph':
-        return <p key={index} className="mb-8 text-gray-200">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>;
+        return <p key={index} className="mb-8 text-xl font-times text-gray-300">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>;
       case 'heading-four':
-        return <h4 key={index} className="text-2xl text-gray-200 font-medium mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
+        return <h4 key={index} className="text-3xl font-times text-zinc-300 font-medium mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
       case 'image':
         return (
           <img
@@ -66,7 +66,7 @@ const PostDetail = ({ post }) => {
                           className='align-middle rounded-full'
                           src={post.author.photo.url}
                       />
-                      <p className='inline align-middle text-zinc-400 ml-3 text-3xl'>{post.author.name}</p>
+                      <p className='inline align-middle text-zinc-300 ml-3 text-2xl'>{post.author.name}</p>
                   </div>
                   <div className='font-medium text-green-600 lg:visible invisible bg-green-300 lg:px-2 px-8 rounded-lg'>
                       <svg xmlns="http://www.w3.org/2000/svg" className="lg:visible invisible h-6 w-6 inline mr-2 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -76,7 +76,7 @@ const PostDetail = ({ post }) => {
                       {/* <button onClick={handleClick}>Likes ({likes})</button> */}
                   </div>
               </div>
-              <h1 className='mb-8 text-3xl font-medium text-zinc-200'>{post.title}</h1>
+              <h1 className='mb-8 text-4xl font-times font-semi text-center text-zinc-100 border-b pb-3 border-b-zinc-400'>{post.title}</h1>
               {/* {console.log(post.content.raw.children)} */}
               {post.content.raw.children.map((typeObj, index) => {
                   const children = typeObj.children.map((item, itemIndex) => getContentFragment(itemIndex, item.text, item))
