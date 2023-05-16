@@ -17,6 +17,7 @@ module.exports = {
       'roboto': ['Roboto', 'system-ui'],
       'varela': ['"Varela Round"', 'system-ui'],
       'sacramento': ['"Marck Script"', 'system-ui'],
+      'times': ['"Source Serif Pro"', 'system-ui'],
     },
     // colors: {
     //   'post': {
