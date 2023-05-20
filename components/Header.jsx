@@ -24,6 +24,9 @@ const Header = () => {
                         <Link href='/contact'>
                             <span className='cursor-pointer px-5 font-normal p-1 rounded-xl transition-all duration-500 hover:bg-sky-400 bg-sky-300 text-base text-zinc-700'>Contatos</span>
                         </Link>
+                        <Link href='/privacity'>
+                            <span className='cursor-pointer px-5 font-normal p-1 rounded-xl transition-all duration-500text-base hover:text-sky-700 text-sky-400'>Politica de Privacidade</span>
+                        </Link>
                     </div>
                     <div className='hidden md:float-left md:contents'>
                         {categories.map((category) => (
