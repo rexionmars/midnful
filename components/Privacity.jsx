@@ -3,9 +3,9 @@ import React from "react";
 const PrivacityPage = () => {
     return (
         <div className="justify-center trs flex flex-row w-full align-middle mb-10">
-            <div className="align-middle w-[80%]">
+            <div className="align-middle lg:w-[70%] w-[80%]">
                 <h1 className="text-gray-200 text-4xl my-5">Termo de Uso</h1>
-                <p className="text-gray-200 text-base">
+                <div className="text-gray-200 text-base">
                     Bem-vindo(a) ao Mindful Explorer, nosso site de artigos e dicas de saúde mental! Antes de prosseguir, é importante que você leia e compreenda os termos e condições de uso descritos abaixo. Ao acessar e utilizar nosso site, você concorda em cumprir e estar sujeito a estes termos. Se você não concorda com algum aspecto deste documento, recomendamos que você não utilize nossos serviços.<br /><br />
                     1.Uso e Propósito do Site
                     <p className="text-left ml-10 my-5">
@@ -19,8 +19,7 @@ const PrivacityPage = () => {
                     2.2 Ao utilizar nosso site, você concorda com a coleta, uso e divulgação de suas informações pessoais conforme descrito em nossa Política de Privacidade. Recomendamos que você leia atentamente nossa Política de Privacidade para entender como suas informações são tratadas.<br />
                     </p>
 
-                    3.Responsabilidade dos Criadores do Site<br />
-
+                    3.Responsabilidade dos Criadores do Site
                     <p className="text-left ml-10 my-5">
                     3.1 Os criadores do site não se responsabilizam por quaisquer consequências decorrentes do uso inadequado das redes sociais dos psicólogos divulgadas no projeto.<br /><br />
                     3.2 As redes sociais dos psicólogos divulgadas no site são de responsabilidade exclusiva dos respectivos profissionais. Os criadores do site não têm controle sobre o conteúdo publicado nessas redes sociais e não se responsabilizam por sua precisão, atualização, legalidade ou qualidade.<br /><br />
@@ -29,14 +28,12 @@ const PrivacityPage = () => {
                     </p>
 
                     4.Autorização de Uso de Dados<br />
-
                     <p className="text-left ml-10 my-5">
                     4.1 Os criadores do site estão autorizados a utilizar os dados fornecidos pelos psicólogos profissionais, com a devida autorização dos mesmos, apenas para fins de divulgação do artigo e do trabalho do psicólogo.<br /><br />
                     4.2 Os dados fornecidos pelos psicólogos serão tratados com confidencialidade e segurança, conforme descrito em nossa Política de Privacidade.<br />
                     </p>
 
                     5.Alterações nos Termos de Uso<br />
-
                     <p className="text-left ml-10 my-5">
                     5.1 Os termos de uso podem ser atualizados periodicamente, e tais atualizações entrarão em vigor imediatamente após sua publicação no site.<br /><br />
                     5.2 É responsabilidade do usuário revisar regularmente os termos de uso para estar ciente de quaisquer alterações.<br />
@@ -44,35 +41,54 @@ const PrivacityPage = () => {
                     </p>
 
                     Atualizado em: 17/05/2023
-                    </p>
-                <h1 className="text-gray-200 text-4xl my-10">Política de Privacidade</h1>
-                <p className="text-gray-200 text-base">
-                    A sua privacidade é importante para nós. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos as informações pessoais que você fornece ao utilizar nosso site de artigos e dicas de saúde mental. Leia atentamente esta política para compreender como tratamos seus dados pessoais.<br />
+                </div>
+                <div className="text-gray-200 text-base">
+                <h1 className="text-gray-200 text-4xl my-5">Política de Privacidade</h1>
+                <div className="text-gray-200 text-base">
+                    A sua privacidade é importante para nós. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos as informações pessoais que você fornece ao utilizar nosso site de artigos e dicas de saúde mental. Leia atentamente esta política para compreender como tratamos seus dados pessoais.<br /><br />
                     1.Informações Coletadas<br />
+                    <p className="text-left ml-10 my-5">
                     1.1 Coletamos as seguintes informações pessoais dos psicólogos profissionais, com sua devida autorização, para divulgação de artigos no nosso site:<br />
                     &emsp;◦ Nome completo<br />
                     &emsp;◦ Número de telefone (opcional)<br />
                     &emsp;◦ Perfil do Instagram (opcional)<br />
                     &emsp;◦ Foto <br />
                     &emsp;◦ Clínicas onde trabalha ou já trabalhou (opcional)<br />
+                    </p>
+
                     2.Uso das Informações<br />
+                    <p className="text-left ml-10 my-5">
                     2.1 Utilizamos as informações pessoais coletadas dos psicólogos apenas para fins de divulgação de seus artigos e do seu trabalho profissional. <br />
                     2.2 As informações pessoais, como nome, foto e clínicas, serão exibidas no site para identificar corretamente o autor do artigo e promover seu trabalho. <br />
                     2.3 O número de telefone fornecido será utilizado somente para contatos relacionados à divulgação dos artigos e/ou (no caso da preferência do profissional) para a divulgação no site. <br />
                     2.4 O perfil do Instagram será divulgado no site, caso o psicólogo opte por fornecê-lo, com o objetivo de direcionar os usuários interessados em obter mais informações ou acompanhar o trabalho do profissional.<br />
+                    </p>
+
                     3.Armazenamento e Segurança<br /> 
+                    <p className="text-left ml-10 my-5">
                     3.1 Armazenamos as informações pessoais dos psicólogos em ambiente seguro, protegido contra acesso não autorizado, uso indevido, divulgação ou alteração. <br />
                     3.2 Utilizamos medidas de segurança técnicas, administrativas e físicas para proteger as informações pessoais contra perda, roubo e acesso não autorizado. <br />
                     3.3 Apenas os responsáveis pela administração do site têm acesso às informações pessoais dos psicólogos e são obrigados a manter a confidencialidade desses dados.<br />
+                    </p>
+
                     4.Compartilhamento de Informações<br />
+                    <p className="text-left ml-10 my-5">
                     4.1 Não compartilhamos, vendemos ou alugamos as informações pessoais dos psicólogos a terceiros, exceto conforme descrito nesta Política de Privacidade.<br />
                     4.2 Podemos compartilhar as informações pessoais dos psicólogos com empresas de hospedagem e manutenção do site, provedores de serviços de tecnologia da informação e outras empresas terceirizadas, desde que essas empresas ajam em nosso nome e concordem em cumprir esta Política de Privacidade.<br />
+                    </p>
+
                     5.Retenção de Dados<br />
+                    <p className="text-left ml-10 my-5">
                     5.1 As informações pessoais dos psicólogos serão mantidas pelo tempo necessário para cumprir as finalidades descritas nesta Política de Privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei.<br />
                     5.2 Caso o psicólogo solicite a exclusão de suas informações pessoais, faremos esforços razoáveis para atender à solicitação, a menos que haja requisitos legais ou legítimos para a manutenção dessas informações.<br />
+                    </p>
+
                     6.Direitos do Titular dos Dados<br />
+                    <p className="text-left ml-10 my-5">
                     6.1 Os psicólogos têm direitos sobre seus dados pessoais e podem solicitar o acesso, retificação, exclusão ou restrição<br />
-                </p>
+                    </p>
+                </div>
+                </div>
             </div>
         </div>
     )
