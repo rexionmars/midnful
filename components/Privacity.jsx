@@ -2,7 +2,7 @@ import React from "react";
 
 const PrivacityPage = () => {
     return (
-        <div className="justify-center flex flex-row w-full align-middle mb-10">
+        <div className="justify-center trs flex flex-row w-full align-middle mb-10">
             <div className="align-middle w-[80%]">
                 <h1 className="text-gray-200 text-4xl my-10">Termo de Uso do Site de Artigos e Dicas de Saúde Mental (Mindful Explorer)</h1>
                 <p className="text-gray-200 text-base">
