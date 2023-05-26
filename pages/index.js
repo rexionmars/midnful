@@ -1,9 +1,10 @@
 import Head from 'next/head'
-import { PostCard, PostWidget, Categories } from '@/components'
+import { PostCard, PostWidget, Categories, Footer, Button } from '@/components'
 import { getPosts } from '@/services'
 import { FeaturedPosts} from '@/sections'
 
 export default function Home({ posts }) {
+
   return (
     <div className='container mx-auto px-10 mb-10 trs'>
       <Head>
@@ -41,6 +42,7 @@ export default function Home({ posts }) {
           </div>
         </div>
       </div>
+      <Button />
     </div>
   )
 }

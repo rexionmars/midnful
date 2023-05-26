@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import moment from "moment"
+import { Button } from "@/components";
 
 const PostDetail = ({ post }) => {
   const [likes, setLikes] = useState(0);
@@ -84,6 +85,7 @@ const PostDetail = ({ post }) => {
                   return getContentFragment(index, children, typeObj, typeObj.type)
               })}
           </div>
+          <Button />
       </div>
   )
 }
