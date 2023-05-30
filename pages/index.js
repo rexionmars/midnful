@@ -9,6 +9,7 @@ export default function Home({ posts }) {
     <div className='container mx-auto px-10 mb-10 trs'>
       <Head>
         <title>MINDFUL EXPLORER</title>
+        <meta name="google-site-verification" content="349vx450NlhnPKr02DPe92oc7yEsaOoAxEKY2J0fy9Q" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Varela+Round&display=swap" rel="stylesheet" />
