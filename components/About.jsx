@@ -9,7 +9,7 @@ const AboutPage = () => {
             <div className="row-sec">
                     <h1 className="font-semibold font-varela text-center lg:text-6xl text-4xl text-sky-400">O que é o projeto MINDFUL EXPLORER</h1>
                     <div className="flex justify-center p-8">
-                        <p className="text-xl text-gray-500 text-left" >
+                        <p className="text-xl text-gray-300 text-left" >
                             Nossa equipe busca auxiliar pessoas com problemas ou duvidas sobre saúde mental tendo como
                             publico alvo toda e qualquer pessoa que sinta curiosidade ou necessite de informações de
                             profissionais confiáveis e competentes sobre o tema.

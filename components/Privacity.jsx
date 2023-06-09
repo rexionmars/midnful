@@ -5,7 +5,7 @@ const PrivacityPage = () => {
         <div className="justify-center trs flex flex-row w-full align-middle mb-10">
             <div className="align-middle lg:w-[70%] w-[80%]">
                 <h1 className="text-gray-200 text-4xl my-5">Termo de Uso</h1>
-                <div className="text-gray-200 text-base">
+                <div className="text-gray-200 text-lg">
                     Bem-vindo(a) ao Mindful Explorer, nosso site de artigos e dicas de saúde mental! Antes de prosseguir, é importante que você leia e compreenda os termos e condições de uso descritos abaixo. Ao acessar e utilizar nosso site, você concorda em cumprir e estar sujeito a estes termos. Se você não concorda com algum aspecto deste documento, recomendamos que você não utilize nossos serviços.<br /><br />
                     1.Uso e Propósito do Site
                     <p className="text-left ml-10 my-5">
